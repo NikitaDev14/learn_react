@@ -1,11 +1,13 @@
 import React, { Component } from "react";
+import { Person as PersonModel } from '../models'
 
-export class Person extends Component {
+export class Person extends Component<PersonModel> {
   public render () {
     return (
-      <p>
-        I'm a Person and I'm {Math.floor(Math.random() * 30)} years old!
-      </p>
+      <div>
+        <p>I'm {this.props.name} and I'm {this.props.age} years old!</p>
+        <p>{this.props.children}</p>
+      </div>
     );
   }
 }

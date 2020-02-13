@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87f00ba8-f784-47ec-a53c-a07bc9717fca" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/person.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/personComponent.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/models.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,6 +79,8 @@
       <workItem from="1580980666789" duration="387000" />
       <workItem from="1581063872982" duration="804000" />
       <workItem from="1581091257783" duration="16000" />
+      <workItem from="1581598589047" duration="67000" />
+      <workItem from="1581598663958" duration="1715000" />
     </task>
     <task id="LOCAL-00001" summary="Project started">
       <created>1581091082747</created>
@@ -100,17 +104,17 @@
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
     <state x="2088" y="283" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1581091221540" />
-    <state x="0" y="0" width="1440" height="900" key="CommitChangelistDialog2" timestamp="1581091082575">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="1486" y="27" width="1765" height="1005" key="CommitChangelistDialog2" timestamp="1581600807293">
+      <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state x="0" y="0" width="1440" height="900" key="CommitChangelistDialog2/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1581091082575" />
+    <state x="1486" y="27" width="1765" height="1005" key="CommitChangelistDialog2/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1581600807293" />
     <state x="2000" y="268" key="Vcs.Push.Dialog.v2" timestamp="1581091209492">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
     <state x="2000" y="268" key="Vcs.Push.Dialog.v2/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1581091209492" />
-    <state x="2189" y="464" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581598595022">
+    <state x="2189" y="464" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581598667706">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state x="2189" y="464" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1581598595022" />
+    <state x="2189" y="464" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1581598667706" />
   </component>
 </project>

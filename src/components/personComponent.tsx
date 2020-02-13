@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import { Person as PersonModel } from '../models'
+import { Person } from '../models'
 
-export class Person extends Component<PersonModel> {
+export class PersonComponent extends Component<Person> {
   public render () {
     return (
       <div>

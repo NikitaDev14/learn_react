@@ -1,5 +1,6 @@
 import React, { FunctionComponent, useState } from 'react';
 import './App.css';
+
 import { PersonComponent } from './components/personComponent';
 import { Person as PersonModel } from './models';
 

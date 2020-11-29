@@ -2,20 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87f00ba8-f784-47ec-a53c-a07bc9717fca" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/personComponent.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/personComponent.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/personComponent.tsx" afterDir="false" />
+    </list>
+    <list id="2c9a18d0-afc1-40f6-9b4a-b7c7931129f0" name="Revert: Function based components (d9c01bc9)" comment="">
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="MERGE" />
+  </component>
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/src/App.tsx">
+      <ranges>
+        <range start1="0" end1="1" start2="0" end2="1" changelist="2c9a18d0-afc1-40f6-9b4a-b7c7931129f0" />
+        <range start1="2" end1="2" start2="2" end2="3" changelist="87f00ba8-f784-47ec-a53c-a07bc9717fca" />
+        <range start1="9" end1="11" start2="10" end2="12" changelist="2c9a18d0-afc1-40f6-9b4a-b7c7931129f0" />
+        <range start1="16" end1="20" start2="17" end2="20" changelist="2c9a18d0-afc1-40f6-9b4a-b7c7931129f0" />
+        <range start1="21" end1="22" start2="21" end2="22" changelist="2c9a18d0-afc1-40f6-9b4a-b7c7931129f0" />
+        <range start1="25" end1="26" start2="25" end2="26" changelist="2c9a18d0-afc1-40f6-9b4a-b7c7931129f0" />
+        <range start1="30" end1="33" start2="30" end2="53" changelist="2c9a18d0-afc1-40f6-9b4a-b7c7931129f0" />
+        <range start1="34" end1="35" start2="54" end2="57" changelist="2c9a18d0-afc1-40f6-9b4a-b7c7931129f0" />
+        <range start1="36" end1="44" start2="58" end2="72" changelist="2c9a18d0-afc1-40f6-9b4a-b7c7931129f0" />
+      </ranges>
+    </file>
   </component>
   <component name="ProjectId" id="1XQaF1e9CKJqxcYimg735588hZZ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -28,6 +52,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -64,6 +89,7 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="87f00ba8-f784-47ec-a53c-a07bc9717fca" name="Default Changelist" comment="" />
+      <changelist id="2c9a18d0-afc1-40f6-9b4a-b7c7931129f0" name="Revert: Function based components (d9c01bc9)" comment="" />
       <created>1580980665102</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -76,7 +102,7 @@
       <workItem from="1605090631760" duration="540000" />
       <workItem from="1605091206993" duration="1689000" />
       <workItem from="1606582878965" duration="2118000" />
-      <workItem from="1606649621660" duration="1538000" />
+      <workItem from="1606649621660" duration="4830000" />
     </task>
     <task id="LOCAL-00001" summary="Project started">
       <created>1581091082747</created>
@@ -99,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605091847722</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Function based components">
+      <created>1606651994364</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1606651994364</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,13 +143,30 @@
     <MESSAGE value="Project started" />
     <MESSAGE value="React updated to 17" />
     <MESSAGE value="Fix build error" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix build error" />
+    <MESSAGE value="Function based components" />
+    <option name="LAST_COMMIT_MESSAGE" value="Function based components" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1792" y="-320" width="2560" height="1440" key="CommitChangelistDialog2" timestamp="1605091847615">
+    <state x="1792" y="-320" width="2560" height="1440" key="CommitChangelistDialog2" timestamp="1606651994203">
       <screen x="1792" y="-320" width="2560" height="1440" />
     </state>
-    <state x="1792" y="-320" width="2560" height="1440" key="CommitChangelistDialog2/0.0.1792.1120/1792.-320.2560.1440@1792.-320.2560.1440" timestamp="1605091847615" />
+    <state x="1792" y="-320" width="2560" height="1440" key="CommitChangelistDialog2/0.0.1792.1120/1792.-320.2560.1440@1792.-320.2560.1440" timestamp="1606651994203" />
+    <state x="1892" y="-220" width="2360" height="1240" key="DiffContextDialog" timestamp="1606652659262">
+      <screen x="1792" y="-320" width="2560" height="1440" />
+    </state>
+    <state x="1892" y="-220" width="2360" height="1240" key="DiffContextDialog/0.0.1792.1120/1792.-320.2560.1440@1792.-320.2560.1440" timestamp="1606652659262" />
+    <state x="1792" y="-320" width="2560" height="1440" key="MergeDialog" timestamp="1606652413630">
+      <screen x="1792" y="-320" width="2560" height="1440" />
+    </state>
+    <state x="1792" y="-320" width="2560" height="1440" key="MergeDialog/0.0.1792.1120/1792.-320.2560.1440@1792.-320.2560.1440" timestamp="1606652413630" />
+    <state x="2882" y="101" key="VCS.ChangeListViewerDialog" timestamp="1606652423247">
+      <screen x="1792" y="-320" width="2560" height="1440" />
+    </state>
+    <state x="2882" y="101" key="VCS.ChangeListViewerDialog/0.0.1792.1120/1792.-320.2560.1440@1792.-320.2560.1440" timestamp="1606652423247" />
+    <state x="2924" y="317" key="VCS.ChangelistChooser" timestamp="1606652374452">
+      <screen x="1792" y="-320" width="2560" height="1440" />
+    </state>
+    <state x="2924" y="317" key="VCS.ChangelistChooser/0.0.1792.1120/1792.-320.2560.1440@1792.-320.2560.1440" timestamp="1606652374452" />
     <state x="2672" y="140" key="Vcs.Push.Dialog.v2" timestamp="1605091165573">
       <screen x="1792" y="-320" width="2560" height="1440" />
     </state>

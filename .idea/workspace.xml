@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="87f00ba8-f784-47ec-a53c-a07bc9717fca" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/personComponent.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/personComponent.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +24,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -70,7 +74,9 @@
       <workItem from="1581598589047" duration="67000" />
       <workItem from="1581598663958" duration="1715000" />
       <workItem from="1605090631760" duration="540000" />
-      <workItem from="1605091206993" duration="490000" />
+      <workItem from="1605091206993" duration="1689000" />
+      <workItem from="1606582878965" duration="2118000" />
+      <workItem from="1606649621660" duration="1538000" />
     </task>
     <task id="LOCAL-00001" summary="Project started">
       <created>1581091082747</created>
@@ -86,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605091161796</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Fix build error">
+      <created>1605091847722</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1605091847722</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -96,13 +109,14 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <MESSAGE value="Project started" />
     <MESSAGE value="React updated to 17" />
-    <option name="LAST_COMMIT_MESSAGE" value="React updated to 17" />
+    <MESSAGE value="Fix build error" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix build error" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1792" y="-320" width="2560" height="1440" key="CommitChangelistDialog2" timestamp="1605091161613">
+    <state x="1792" y="-320" width="2560" height="1440" key="CommitChangelistDialog2" timestamp="1605091847615">
       <screen x="1792" y="-320" width="2560" height="1440" />
     </state>
-    <state x="1792" y="-320" width="2560" height="1440" key="CommitChangelistDialog2/0.0.1792.1120/1792.-320.2560.1440@1792.-320.2560.1440" timestamp="1605091161613" />
+    <state x="1792" y="-320" width="2560" height="1440" key="CommitChangelistDialog2/0.0.1792.1120/1792.-320.2560.1440@1792.-320.2560.1440" timestamp="1605091847615" />
     <state x="2672" y="140" key="Vcs.Push.Dialog.v2" timestamp="1605091165573">
       <screen x="1792" y="-320" width="2560" height="1440" />
     </state>

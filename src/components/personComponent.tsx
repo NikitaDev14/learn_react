@@ -1,13 +1,9 @@
-import React, { Component } from "react";
+import React, { FunctionComponent } from "react";
+
 import { Person } from '../models'
 
-export class PersonComponent extends Component<Person> {
-  public render () {
-    return (
-      <div>
-        <p>I'm {this.props.name} and I'm {this.props.age} years old!</p>
-        <p>{this.props.children}</p>
-      </div>
-    );
-  }
-}
+export const PersonComponent: FunctionComponent<Person> = ({name, age, children}) =>
+  <div>
+    <p>I'm {name} and I'm {age} years old!</p>
+    <p>{children}</p>
+  </div>

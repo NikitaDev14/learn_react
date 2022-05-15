@@ -4,9 +4,3 @@ export function fetchCount(amount = 1) {
     setTimeout(() => resolve({ data: amount }), 1000)
   );
 }
-
-export enum LOADING_STATUS {
-  Idle,
-  Loading,
-  Failed,
-}

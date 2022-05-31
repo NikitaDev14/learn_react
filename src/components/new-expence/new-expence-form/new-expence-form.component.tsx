@@ -1,13 +1,14 @@
 import { FunctionComponent, SyntheticEvent, useState } from "react";
-import { NewExpenceFormData } from "../../models/expence.model";
+import { NewExpenceFormData } from "../../../models/expence.model";
 
 import './new-expence-form.component.css';
 
 interface PropsType {
+  onCancel: () => void;
   onSaveExpenceData: (newExpenceFormData: NewExpenceFormData) => void;
 }
 
-export const NewExpenceForm: FunctionComponent<PropsType> = ({ onSaveExpenceData }: PropsType) => {
+export const NewExpenceForm: FunctionComponent<PropsType> = ({ onCancel, onSaveExpenceData }: PropsType) => {
   const [title, setTitle] = useState('');
   const [amount, setAmount] = useState('');
   const [date, setDate] = useState('');
@@ -40,8 +41,14 @@ export const NewExpenceForm: FunctionComponent<PropsType> = ({ onSaveExpenceData
     setDate('');
   };
   
+  const resetHandler = (event: SyntheticEvent) => {
+    event.preventDefault();
+    
+    onCancel();
+  }
+  
   return (
-    <form onSubmit={submitHandler}>
+    <form onSubmit={submitHandler} onReset={resetHandler}>
       <div className="new-expense__controls">
         <div className="new-expense__control">
           <label>Title</label>
@@ -57,6 +64,7 @@ export const NewExpenceForm: FunctionComponent<PropsType> = ({ onSaveExpenceData
         </div>
       </div>
       <div className="new-expense__actions">
+        <button type="reset">Cancel</button>
         <button type="submit">Add expence</button>
       </div>
     </form>

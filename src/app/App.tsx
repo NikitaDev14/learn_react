@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 
 import { ExpenceItem } from "../models/expence.model";
-import { Expences } from "../components/expences/expences.component";
-import { NewExpence } from "../components/new-expence/new-expence.component";
+import { Expences } from "../components/expences/expences/expences.component";
+import { NewExpence } from "../components/new-expence/new-expence/new-expence.component";
 
 const DUMMY_EXPENCES: ReadonlyArray<ExpenceItem> = [
   { id: 'e1', title: 'Toilet Paper', amount: 94.12, date: new Date(2020, 7, 14) },

@@ -5,12 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="87f00ba8-f784-47ec-a53c-a07bc9717fca" name="Default Changelist" comment="SStyles">
+      <change afterPath="$PROJECT_DIR$/src/components/chart/chart-bar/chart-bar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/chart/chart-bar/chart-bar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/chart/chart/chart.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/chart/chart/chart.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/expences/expence-item/expence-item.component.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/expences/expences-chart/expences-chart.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/expences/expences-list/expences-list.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/expences/expences-list/expences-list.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/counter/counterAPI.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/counter/counterAPI.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/counter/counterSlice.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/counter/counterSlice.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/card/card.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/card/card.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/card/card.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/card/card.component.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/expence-date/expence-date.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/expences/expence-date/expence-date.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/expence-date/expence-date.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/expences/expence-date/expence-date.component.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/expence-item/expence-item.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/expences/expence-item/expence-item.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/expence-item/expence.item.component.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/expences-filter/expences-filter.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/expences/expences-filter/expences-filter.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/expences-filter/expences-filter.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/expences/expences-filter/expences-filter.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/expences/expences.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/expences/expences/expences.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/expences/expences.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/expences/expences/expences.component.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/new-expence-form/new-expence-form.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/new-expence/new-expence-form/new-expence-form.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/new-expence-form/new-expence-form.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/new-expence/new-expence-form/new-expence-form.component.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/new-expence/new-expence.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/new-expence/new-expence/new-expence.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/new-expence/new-expence.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/new-expence/new-expence/new-expence.component.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/expence.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/expence.model.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,21 +39,23 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="TypeScript File" />
         <option value="CSS File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="MERGE" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/package.json" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/App.tsx" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/components/personComponent.tsx" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/features/counter/Counter.tsx" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/features/counter/counterAPI.ts" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/features/counter/counterSlice.ts" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -45,20 +66,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "yarn",
-    "ts.external.directory.path": "/Users/nikitahathway/Projects/learn-react/node_modules/typescript/lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/nikitahathway/Projects/learn-react/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components" />
+      <recent name="$PROJECT_DIR$/src/expences" />
+      <recent name="$PROJECT_DIR$/src/new-expence" />
+      <recent name="$PROJECT_DIR$/src/components/ui" />
+      <recent name="$PROJECT_DIR$/src/components/new-expence-form" />
+    </key>
+    <key name="es6.move.members.recent.items">
+      <recent name="$PROJECT_DIR$/src/models/common.ts" />
+      <recent name="$PROJECT_DIR$/src/models/counter.ts" />
+    </key>
+  </component>
   <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
@@ -102,7 +137,12 @@
       <workItem from="1623693090875" duration="952000" />
       <workItem from="1625080836712" duration="1004000" />
       <workItem from="1632939723772" duration="510000" />
-      <workItem from="1652514116562" duration="1070000" />
+      <workItem from="1652514116562" duration="8451000" />
+      <workItem from="1652813496372" duration="300000" />
+      <workItem from="1653157660484" duration="6724000" />
+      <workItem from="1653328448744" duration="801000" />
+      <workItem from="1653470353128" duration="4476000" />
+      <workItem from="1653907907443" duration="10712000" />
     </task>
     <task id="LOCAL-00001" summary="Project started">
       <created>1581091082747</created>
@@ -146,19 +186,53 @@
       <option name="project" value="LOCAL" />
       <updated>1623350523360</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="SStyles">
+      <created>1652606869557</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1652606869557</updated>
+    </task>
+    <task id="LOCAL-00008" summary="SStyles">
+      <created>1652625093857</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1652625093857</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Render dynamic list">
+      <created>1653913325114</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1653913325115</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Project started" />
     <MESSAGE value="React updated to 17" />
     <MESSAGE value="Fix build error" />
     <MESSAGE value="Function based components" />
     <MESSAGE value="SStyles" />
-    <option name="LAST_COMMIT_MESSAGE" value="SStyles" />
+    <MESSAGE value="Render dynamic list" />
+    <option name="LAST_COMMIT_MESSAGE" value="Render dynamic list" />
   </component>
 </project>

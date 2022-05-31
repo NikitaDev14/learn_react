@@ -7,3 +7,8 @@ export interface NewExpenceFormData {
 }
 
 export interface ExpenceItem extends NewExpenceFormData, Identifiable {}
+
+export interface ExpenceChartDataPoint extends Identifiable {
+  label: string;
+  value: number;
+}

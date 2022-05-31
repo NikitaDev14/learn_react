@@ -1,10 +1,11 @@
 import React, { FunctionComponent, useState } from "react";
 
-import * as expenceItemModels from "../../models/expence.model";
-import { ExpenceItem } from "../expence-item/expence.item.component";
+import * as expenceItemModels from "../../../models/expence.model";
 import './expences.component.css';
-import { Card } from "../card/card.component";
+import { Card } from "../../ui/card/card.component";
 import { ExpencesFilter } from "../expences-filter/expences-filter";
+import { ExpencesList } from "../expences-list/expences-list";
+import { ExpencesChart } from "../expences-chart/expences-chart";
 
 interface PropsType {
   items: expenceItemModels.ExpenceItem[];
@@ -17,23 +18,18 @@ export const Expences: FunctionComponent<PropsType> = ({ items }: PropsType) => 
     setFilter(filterValue);
   };
   
+  const filteredExpences: expenceItemModels.ExpenceItem[] = items.filter((expenceItem: expenceItemModels.ExpenceItem) => {
+    return expenceItem.date.getFullYear().toString() === filter;
+  });
+  
   return (
     <div>
       <Card className="expenses">
         <ExpencesFilter
           selected={filter}
           onChangeFilterHandler={changeFilterHandler}/>
-        
-        {
-          items.map((expence: expenceItemModels.ExpenceItem) => (
-            <ExpenceItem
-              key={expence.id}
-              title={expence.title}
-              amount={expence.amount}
-              date={expence.date}/>
-          ))
-        }
-        
+        <ExpencesChart expences={filteredExpences}/>
+        <ExpencesList items={filteredExpences}/>
       </Card>
     </div>
   );

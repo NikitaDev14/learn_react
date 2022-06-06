@@ -24,10 +24,10 @@ function App() {
   }
   
   return (
-    <div>
+    <React.Fragment>
       <NewExpence onAddExpence={addExpenceHandler}/>
       <Expences items={expences}/>
-    </div>
+    </React.Fragment>
   );
 }
 

@@ -1,6 +1,6 @@
 import React, { FunctionComponent } from "react";
 
-import './card.component.css';
+import styles from './card.module.css';
 
 interface PropsType {
   className: string;
@@ -8,9 +8,9 @@ interface PropsType {
 }
 
 export const Card: FunctionComponent<PropsType> = ({ className, children }: PropsType) => {
-  const classes = `card ${className}`;
-  
   return (
-    <div className={classes}>{children}</div>
+    <div className={`${styles.card} ${className}`}>
+      {children}
+    </div>
   );
 };

@@ -1,6 +1,6 @@
 import { FunctionComponent } from "react";
 
-import './chart-bar.css';
+import styles from './chart-bar.module.css';
 
 interface PropsType {
   value: number;
@@ -16,11 +16,11 @@ export const ChartBar: FunctionComponent<PropsType> = ({ value, maxValue, label 
   }
   
   return (
-    <div className='chart-bar'>
-      <div className='chart-bar__inner'>
-        <div className='chart-bar__fill' style={{height: barFillHeight}}></div>
+    <div className={styles['chart-bar']}>
+      <div className={styles['chart-bar__inner']}>
+        <div className={styles['chart-bar__fill']} style={{height: barFillHeight}}></div>
       </div>
-      <div className='chart-bar__label'>{label}</div>
+      <div className={styles['chart-bar__label']}>{label}</div>
     </div>
   );
 };

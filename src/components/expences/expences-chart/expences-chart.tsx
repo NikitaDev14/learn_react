@@ -1,5 +1,5 @@
 import { FunctionComponent } from "react";
-import { Chart } from "../../chart/chart/chart";
+import { Chart } from "../../chart/chart/chart.component";
 import { ExpenceChartDataPoint, ExpenceItem } from "../../../models/expence.model";
 
 interface PropsType {

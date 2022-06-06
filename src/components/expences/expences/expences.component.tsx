@@ -23,14 +23,12 @@ export const Expences: FunctionComponent<PropsType> = ({ items }: PropsType) => 
   });
   
   return (
-    <div>
-      <Card className="expenses">
-        <ExpencesFilter
-          selected={filter}
-          onChangeFilterHandler={changeFilterHandler}/>
-        <ExpencesChart expences={filteredExpences}/>
-        <ExpencesList items={filteredExpences}/>
-      </Card>
-    </div>
+    <Card className="expenses">
+      <ExpencesFilter
+        selected={filter}
+        onChangeFilterHandler={changeFilterHandler}/>
+      <ExpencesChart expences={filteredExpences}/>
+      <ExpencesList items={filteredExpences}/>
+    </Card>
   );
 };

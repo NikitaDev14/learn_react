@@ -1,6 +1,6 @@
 import { FunctionComponent, useState } from "react";
 
-import './new-expence.component.css';
+import styles from './new-expence.module.css';
 import { NewExpenceForm } from "../new-expence-form/new-expence-form.component";
 import { ExpenceItem, NewExpenceFormData } from "../../../models/expence.model";
 
@@ -36,7 +36,7 @@ export const NewExpence: FunctionComponent<PropsType> = ({ onAddExpence }: Props
   }
 
   return (
-    <div className="new-expense">
+    <div className={styles['new-expense']}>
       {content}
     </div>
   );
